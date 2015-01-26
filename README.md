@@ -17,6 +17,19 @@ Libraries:
 
 - Promises - since we code in promise style, good lib was needed, we have chosen bluebird.
 
+## Branches
+
+There are several branches created. The goal is to test if we can
+create template for different types of projects (adding modules, dev-modules, samples)
+and keep them updated from master branch by simple git merges.
+
+Branches:
+
+- cli-boilerplate - quickly create command line tools, using node.js
+- d3-boilerplate - create d3 charts (web, cli)
+
+ 
+
 
 ## Tools Installed
 
@@ -88,6 +101,8 @@ Useful commands used when creating this boilerplate, and few notes:
 
 	# libs
 	npm install --save bluebird|name|version|homepage|description|path|
+
+
 
 ## Review
 
