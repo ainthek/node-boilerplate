@@ -1,1 +1,2 @@
---reporter list
+--reporter spec
+-r jscoverage
