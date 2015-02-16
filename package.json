@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "bluebird": "^2.7.1",
-    "commander": "^2.6.0"
+    "commander": "^2.6.0",
+    "shelljs": "^0.3.0"
   }
 }
