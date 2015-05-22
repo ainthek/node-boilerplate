@@ -32,15 +32,28 @@ Branches:
 ## Using
 
 All of you , can just FORK IT, 
-for me ro fok myslef I have to do this work:
+for me to fork myslef I have to do this work:
+	
+	cd ..
+	
+	# sample name
+	NAME=xpath-expression 
+	TEMPLATE=cli-boilerplate
 
-	git clone -b cli-boilerplate --single-branch https://github.com/ainthek/node-boilerplate.git xpath-expression
-	cd xpath-expression
+	git clone -b $TEMPLATE --single-branch https://github.com/ainthek/node-boilerplate.git $NAME
+	cd $NAME
 	git remote rename origin upstream
-	git branch -m cli-boilerplate master
-	git remote add origin https://github.com/ainthek/xpath-expression
+	git branch -m $TEMPLATE master
+	
+	git remote add origin https://github.com/ainthek/$NAME
 
 	# create repo on github and 
+	# .....
+
+	# modify package.json and readme
+	#.....
+
+	
 	git push -u origin master
  
 	npm install
@@ -120,6 +133,7 @@ Useful commands used when creating this boilerplate, and few notes:
 
 	# libs
 	npm install --save bluebird|name|version|homepage|description|path|
+
 
 
 
