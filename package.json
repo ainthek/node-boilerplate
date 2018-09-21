@@ -19,7 +19,6 @@
     "url": "https://github.com/ainthek/node-boilerplate/issues"
   },
   "devDependencies": {
-    "jscoverage": "^0.6.0",
     "jshint": "^2.9.6",
     "mocha": "^5.2.0",
     "plato": "^1.7.0"
