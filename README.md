@@ -53,7 +53,7 @@ Then run:
 
 ### To update your project with template
 
-	git fetch node-boilerplate; git merge upstream/cli-boilerplate master
+	git fetch node-boilerplate; git merge node-boilerplate/cli-boilerplate master
 
 ## Tools Installed
 
