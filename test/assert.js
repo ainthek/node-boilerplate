@@ -6,7 +6,7 @@ var assert = require("assert");
 assert = module.exports = Object.create(assert);
 
 assert.sameJSON = function(actual, expected, message) {
-	if (JSON.stringify(actual) !== JSON.stringify(expected)) {
-		assert.fail(actual, expected, message, "===");
-	}
+    if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+        assert.fail(actual, expected, message, "===");
+    }
 };
