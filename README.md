@@ -72,7 +72,7 @@ Run Lints and Code Analysis
 	npm run mocha
 	npm run lint
 	npm run plato
-	npm run nsp
+
 
 Run tests
 
@@ -111,9 +111,6 @@ Useful commands used when creating this boilerplate, and few notes:
 	echo "test_reports/" 	>> .gitignore
 	echo "test_reports/" 	>> .jshintignore
 
-	# nodesecurityproject
-	npm install --save-dev nsp
-	echo "npm-shrinkwrap.json" 	>> .gitignore
 
 	# tests
 
