@@ -31,37 +31,29 @@ Branches:
 
 ## Using
 
-All of you , can just FORK IT, 
-for me to fork myslef I have to do this work:
-	
-	cd ..
-	
+To create new project based on the node-boilerplate just run:
+
 	# sample name
-	NAME=xpath-expression 
+	NAME=my-cool-project
 	TEMPLATE=cli-boilerplate
+
+Then run:
 
 	git clone -b $TEMPLATE --single-branch https://github.com/ainthek/node-boilerplate.git $NAME
 	cd $NAME
-	git remote rename origin upstream
+	git remote rename origin node-boilerplate
 	git branch -m $TEMPLATE master
-	
-	git remote add origin https://github.com/ainthek/$NAME
 
-	# create repo on github and 
-	# .....
+	sed -i "s;node-boilerplate;$NAME;" package.json
+	echo "# $NAME" > README.md
 
-	# modify package.json and readme
-	#.....
-
-	
-	git push -u origin master
- 
 	npm install
 	npm test
 
+
 ### To update your project with template
 
-	git fetch upstream; git merge upstream/cli-boilerplate master
+	git fetch node-boilerplate; git merge upstream/cli-boilerplate master
 
 ## Tools Installed
 
